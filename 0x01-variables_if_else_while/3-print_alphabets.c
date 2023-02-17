@@ -12,9 +12,11 @@ int main(void)
 	int a;
 	int j;
 
-	for (a = 0, j = 0; a < 26, j < 26; a++, j++)
+	for (a = 0; a < 26; a++)
 	{
 		putchar(low[a]);
+
+		for (j = 0; j < 26; j++)
 		putchar(upper[j]);
 	}
 	putchar('\n');
