@@ -9,10 +9,11 @@ int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (int a = 0; a <= 26; a++)
+	for (int a = 0; a < 26; a++)
 	{
 		putchar(alp[a]);
 	}
-	putchar("\n");
+	putchar('\n');
+	return (0);
 
 }
