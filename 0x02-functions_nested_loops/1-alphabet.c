@@ -1,25 +1,16 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
- * print_alphabet - is a Function
- * Return: Always 0.
+ * print_alphabet - Print all alphabet in lowercase
  */
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-void print_alphabet(void)
+void print_alphabet()
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int a;
 
 	for (a = 0; a < 26; a++)
 	{
-		putchar(alp[a]);
+		_putchar(alp[a]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
