@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Print all alphabet in lowercase
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int a;
