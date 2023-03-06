@@ -1,11 +1,10 @@
 #include "main.h"
-/*
- * _strchr - Finds the character value of what is pass in c from s
- * @*s: The pointer variable
- * @c: The character we are looking for
- * Return: Alwaya 0
+/**
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
-
 char *_strchr(char *s, char c)
 {
 	int i = 0;
@@ -17,3 +16,4 @@ char *_strchr(char *s, char c)
 	}
 	return (0);
 }
+
