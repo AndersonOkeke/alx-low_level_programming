@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- *_puts_recursion - Prints the String
- *@*s: pass in argument.
+/**
+ *_puts_recursion - function like puts();
+ *@s: pass in argument.
  *Return: Always 0 (success)
  */
 
